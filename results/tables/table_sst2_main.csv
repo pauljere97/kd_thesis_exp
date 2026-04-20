@@ -1,0 +1,7 @@
+Model,Params (M),SST-2 Acc (mean),SST-2 Acc (std),GPU Latency (ms),GPU Throughput (tps),CPU Latency (ms),Peak Memory (MB),Model Size (MB)
+Teacher (BERT-large),335.1,0.9427,N/A,9.4,13618,188.32,3144,1278
+Student B0 (Baseline),,0.9071,0.0016,,,,,
+Student KD1 (Logit-KD),,0.9071,0.0016,,,,,
+Student KD3 (Feature-KD),,0.9098,0.0024,,,,,
+Student Q8 (INT8),,0.9071,0.0000,,,,,
+Student Q4 (INT4),,0.6021,0.0000,,,,,

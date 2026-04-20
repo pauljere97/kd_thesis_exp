@@ -1,0 +1,7 @@
+Model,EM (mean),EM (std),F1 (mean),F1 (std)
+Teacher (BERT-large),85.69,N/A,92.42,N/A
+Student B0 (Baseline),74.39,0.20,83.27,0.12
+Student KD1 (Logit-KD),74.47,0.28,83.47,0.18
+Student KD2 (Sequence-KD),74.82,0.29,83.55,0.16
+Student Q8 (INT8),63.68,0.00,75.33,0.00
+Student Q4 (INT4),0.46,0.00,6.77,0.00

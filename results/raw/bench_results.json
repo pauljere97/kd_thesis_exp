@@ -1,0 +1,47 @@
+{
+  "Teacher (BERT-large)": {
+    "gpu_latency_ms": 9.4,
+    "gpu_throughput_tps": 13618,
+    "cpu_latency_ms": 188.32,
+    "cpu_throughput_tps": 680,
+    "peak_mem_mb": 3144,
+    "model_size_mb": 1278,
+    "num_params_M": 335.1
+  },
+  "Student B0": {
+    "gpu_latency_ms": 2.72,
+    "gpu_throughput_tps": 47006,
+    "cpu_latency_ms": 18.3,
+    "cpu_throughput_tps": 6993,
+    "peak_mem_mb": 2128,
+    "model_size_mb": 255,
+    "num_params_M": 67.0
+  },
+  "Student KD1": {
+    "gpu_latency_ms": 2.75,
+    "gpu_throughput_tps": 46546,
+    "cpu_latency_ms": 18.49,
+    "cpu_throughput_tps": 6921,
+    "peak_mem_mb": 2128,
+    "model_size_mb": 255,
+    "num_params_M": 67.0
+  },
+  "Student Q8": {
+    "gpu_latency_ms": 12.21,
+    "gpu_throughput_tps": 10482,
+    "cpu_latency_ms": 12.21,
+    "cpu_throughput_tps": 10482,
+    "peak_mem_mb": 0,
+    "model_size_mb": 91,
+    "num_params_M": 23.9
+  },
+  "Student Q4": {
+    "gpu_latency_ms": 19.69,
+    "gpu_throughput_tps": 6500,
+    "cpu_latency_ms": 19.69,
+    "cpu_throughput_tps": 6500,
+    "peak_mem_mb": 0,
+    "model_size_mb": 255,
+    "num_params_M": 67.0
+  }
+}
